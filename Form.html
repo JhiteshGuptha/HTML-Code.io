@@ -1,0 +1,121 @@
+<!-- Form = Used to Create Form Pages in HTML -->
+<!--      = For Example, create an account page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML - Code.io</title>
+</head>
+<body>
+    
+    <!-- Form tag with attributes -->
+    <!-- action = Sends the data to backend -->
+    <!-- method = Specifies if it's a GET/POST request -->
+    <!--        = POST is used for sensitive data -->
+
+    <form action="/action.php" method="POST">
+
+        <!-- Label Tag = Used to name the input field -->
+        <!-- 🟥 For Attribute text should match id -->
+
+        <label for="firstName">First Name:</label>
+
+        <!-- Input type = textbox-->
+
+        <!-- Attributes associated with Input -->
+
+        <!-- required = states that the field is required! -->
+        <!-- minlength = used to set minimum length of the input field -->
+        <!-- maxlength = used to set the maximum length of the input field-->
+        <!-- placeholder = text diplayed within the input type for info -->
+
+        <input type="text" id="firstName" name="fullName" placeholder="Enter your First Name">
+        <br><br>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="fullName" placeholder="Enter your Last Name">
+        <hr>
+
+        <!-- Input type = Username and Password -->
+        <!--            = Password is always enclosed within dots -->
+        
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="credentials" placeholder="Enter your username" required>
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="credentials" placeholder="Enter your password" required>
+        <hr>
+
+        <!-- Input type = Email -->
+
+        <label for = "email">Enter Your Email:</label>
+        <input type = "email" id = "email" placeholder = "abc@gmail.com" name = "mail">
+        <hr>
+        
+        <!-- Input type = Phone Number -->
+        <!-- pattern attribute = [0-9]{3}-[0-9]{3}-[0-9]{4} is the pattern required for a phone number -->
+
+        <label for = "phone">Enter Your Phone Number:</label>
+        <input type = "tel" id = "phone" placeholder = "123-456-7890" name= "number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        <hr>
+
+        <!-- Input type = Date -->
+
+        <label for = "birthday">Enter Your Birth Date:</label>
+        <input type = "date" id = "birthday"  name = "date">
+        <hr>
+
+        <!-- Input type = File upload -->
+
+        <label for = "localfile">Select a File:</label>
+        <input type = "file" id = "localfile" name = "document">
+        <hr>
+
+        <!-- Input type = Radio Button -->
+
+        <p>Select a Programming language</p>
+        <label for="html"><input type="radio" id="html" name="languages" value="HTML">HTML</label>
+        <label for="css"><input type="radio" id="css" name="languages" value="CSS">CSS</label>
+        <label for="javascript"><input type="radio" id="javascript" name="languages" value="JAVASCRIPT">JAVASCRIPT</label>
+        <hr>
+
+        <!-- Input type = Checkbox -->
+
+        <p>Select atleast one subject</p>
+        <label for="maths"><input type="checkbox" id="maths" name="subject" value="MATHS">MATHS</label>
+        <br>
+        <label for="physics"><input type="checkbox" id="physics" name="subject" value="PHYSICS">PHYSICS</label>
+        <br>
+        <label for="chemistry"><input type="checkbox" id="chemistry" name="subject" value="CHEMISTRY">CHEMISTRY</label>
+        <hr>
+
+        <!-- Text Area -->
+
+        <label for="changes">FeedBack:</label>
+        <br><br>
+        <textarea placeholder = "please give your valuable feedback" id = "changes" name = "feedback" rows = "5" column = "5"></textarea>
+        <hr>
+
+        <!-- Dropdown --> 
+         
+        <p>Select a city from the dropdown</p>
+        <select id="city" name="country">
+            <option value="none"></option>
+            <option value="PHL">PHL</option>
+            <option value="NYC">NYC</option>
+            <option value="TX">TX</option>
+            <option value="BOS">BOS</option>
+        </select>
+        <hr>
+
+        <!-- Input type = Reset -->
+
+        <input type="reset" value="RESET">
+
+        <!-- Input type = Submit -->
+
+        <input type = "submit" value = "SUBMIT">
+    </form>
+</body>
+</html>
