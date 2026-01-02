@@ -1,7 +1,7 @@
 # HTML Learning Repository - Code.io
 
 <div align="center">
-  <img src="BrandLogo.png" alt="E.I. Logo" height="100" style="margin-right: 20px;">
+  <img src="./Assets/Images/BrandLogo.png" alt="E.I. Logo" height="100" style="margin-right: 20px;">
   <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png" alt="HTML Logo" height="100">
 </div>
 
