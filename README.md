@@ -58,4 +58,3 @@ These notes provide:
     ```
 2.  **Run the files**: Open any `.html` file in your preferred browser.
 3.  **Live Preview**: It is recommended to use the **Live Server** extension in VS Code to see your changes update instantly.
->>>>>>> 460f732 (Refer README.md For Detail)
