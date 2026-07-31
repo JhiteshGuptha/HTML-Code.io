@@ -54,7 +54,7 @@ These notes provide:
 ## 🚀 How to Use This Repository
 1.  **Clone the repository**:
     ```bash
-    git clone [https://github.com/your-username/HTML-Code.io.git](https://github.com/your-username/HTML-Code.io.git)
+    git clone https://github.com/JhiteshGuptha/HTML-Code.io.git
     ```
 2.  **Run the files**: Open any `.html` file in your preferred browser.
 3.  **Live Preview**: It is recommended to use the **Live Server** extension in VS Code to see your changes update instantly.
